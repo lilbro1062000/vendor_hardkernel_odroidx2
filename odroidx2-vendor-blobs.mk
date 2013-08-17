@@ -24,8 +24,6 @@ PRODUCT_COPY_FILES := \
 PRODUCT_COPY_FILES := \
     vendor/hardkernel/odroidx2/proprietary/lib/hw/camera.odroidx2.so:system/lib/hw/camera.odroidx2.so 
 
-#    vendor/hardkernel/odroidx2/proprietary/lib/hw/hwcomposer.odroidx2.so:system/lib/hw/hwcomposer.odroidx2.so
-
 PRODUCT_COPY_FILES += \
     vendor/hardkernel/odroidx2/proprietary/bin/iwconfig:system/bin/iwconfig \
     vendor/hardkernel/odroidx2/proprietary/bin/iwlist:system/bin/iwlist \
@@ -37,7 +35,6 @@ PRODUCT_COPY_FILES += \
     vendor/hardkernel/odroidx2/proprietary/vendor/firmware/mfc_fw.bin:system/vendor/firmware/mfc_fw.bin \
     vendor/hardkernel/odroidx2/proprietary/vendor/firmware/fimc_is_fw.bin:system/vendor/firmware/fimc_is_fw.bin \
     vendor/hardkernel/odroidx2/proprietary/vendor/firmware/setfile.bin:system/vendor/firmware/setfile.bin \
-    vendor/hardkernel/odroidx2/proprietary/app/ODROID.apk:system/app/ODROID.apk \
     vendor/hardkernel/odroidx2/proprietary/app/DicePlayer_2_0_18.apk:system/app/DicePlayer_2_0_18.apk \
     vendor/hardkernel/odroidx2/proprietary/lib/libSoundTouch.so:system/lib/libSoundTouch.so \
     vendor/hardkernel/odroidx2/proprietary/lib/libdice_ics.so:system/lib/libdice_ics.so \
