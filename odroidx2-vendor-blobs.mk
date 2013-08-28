@@ -35,15 +35,7 @@ PRODUCT_COPY_FILES += \
     vendor/hardkernel/odroidx2/proprietary/vendor/firmware/mfc_fw.bin:system/vendor/firmware/mfc_fw.bin \
     vendor/hardkernel/odroidx2/proprietary/vendor/firmware/fimc_is_fw.bin:system/vendor/firmware/fimc_is_fw.bin \
     vendor/hardkernel/odroidx2/proprietary/vendor/firmware/setfile.bin:system/vendor/firmware/setfile.bin \
-    vendor/hardkernel/odroidx2/proprietary/app/DicePlayer_2_0_18.apk:system/app/DicePlayer_2_0_18.apk \
-    vendor/hardkernel/odroidx2/proprietary/lib/libSoundTouch.so:system/lib/libSoundTouch.so \
-    vendor/hardkernel/odroidx2/proprietary/lib/libdice_ics.so:system/lib/libdice_ics.so \
-    vendor/hardkernel/odroidx2/proprietary/lib/libdice_jb.so:system/lib/libdice_jb.so \
-    vendor/hardkernel/odroidx2/proprietary/lib/libdice_loadlibrary.so:system/lib/libdice_loadlibrary.so \
-    vendor/hardkernel/odroidx2/proprietary/lib/libdice_software.so:system/lib/libdice_software.so \
-    vendor/hardkernel/odroidx2/proprietary/lib/libdice_software_ics.so:system/lib/libdice_software_ics.so \
-    vendor/hardkernel/odroidx2/proprietary/lib/libdice_software_jb.so:system/lib/libdice_software_jb.so \
-    vendor/hardkernel/odroidx2/proprietary/lib/libffmpeg_dice.so:system/lib/libffmpeg_dice.so 
+    vendor/hardkernel/odroidx2/proprietary/lib/libSoundTouch.so:system/lib/libSoundTouch.so
 
 PRODUCT_COPY_FILES += \
     vendor/hardkernel/odroidx2/proprietary/lib/egl/libEGL_mali.so:system/lib/egl/libEGL_mali.so \
