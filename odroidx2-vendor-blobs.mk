@@ -25,6 +25,7 @@ PRODUCT_COPY_FILES := \
     vendor/hardkernel/odroidx2/proprietary/lib/hw/camera.odroidx2.so:system/lib/hw/camera.odroidx2.so 
 
 PRODUCT_COPY_FILES += \
+    vendor/hardkernel/odroidx2/proprietary/bin/vold:system/bin/vold \
     vendor/hardkernel/odroidx2/proprietary/bin/iwconfig:system/bin/iwconfig \
     vendor/hardkernel/odroidx2/proprietary/bin/iwlist:system/bin/iwlist \
     vendor/hardkernel/odroidx2/proprietary/usr/idc/odroidx-ts.idc:system/usr/idc/odroidx-ts.idc \
